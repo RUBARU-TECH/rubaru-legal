@@ -4,42 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rubaru — Legal &amp; Privacy</title>
-  <meta name="description" content="Legal policies for Rubaru Bank Transfer Discount: privacy, terms, DPA, cookies, security.">
+  <meta name="description" content="Legal center for Rubaru Bank Transfer Discount: privacy, terms, DPA, cookies, security. Plain-language documents that govern the app.">
+  <meta property="og:title" content="Rubaru — Legal &amp; Privacy">
+  <meta property="og:description" content="Plain-language legal documents that govern the Rubaru Bank Transfer Discount app for Shopify.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 1200'%3E%3Crect width='1200' height='1200' rx='248' fill='%23B52F5E'/%3E%3Cpath d='M312 864V498C312 376.5 410.5 278 532 278H625V464H554C522.5 464 497 489.5 497 521V864C497 915.4 455.4 957 404 957C352.6 957 312 915.4 312 864Z' fill='%23fff'/%3E%3Cpath d='M497 464C497 361.3 580.3 278 683 278H772C823.4 278 865 319.6 865 371V401C865 452.4 823.4 494 772 494H705C590.1 494 497 587.1 497 702V464Z' fill='%23F0A46F'/%3E%3Ccircle cx='893' cy='293' r='72' fill='%23FBFAF7'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
-    :root{ --theme-color:#B52F5E; --ink:#161119; --ink2:#3d3640; --paper:#FBFAF7; --line:#ECE7E2; }
-    body{ background:var(--paper); }
-    body,.markdown-section{ font-family:"IBM Plex Sans",system-ui,-apple-system,sans-serif; color:var(--ink2); }
-    .markdown-section h1,.markdown-section h2,.markdown-section h3,.markdown-section h4{ font-family:"Hanken Grotesk","IBM Plex Sans",sans-serif; color:var(--ink); letter-spacing:-.015em; }
-    .markdown-section h1{ font-weight:800; }
-    .markdown-section{ max-width:52rem; }
-    .markdown-section a{ color:var(--theme-color); font-weight:500; }
-    .markdown-section code,.markdown-section pre{ font-family:"IBM Plex Mono",ui-monospace,monospace; }
-    .markdown-section code{ color:#8f2149; background:#FBEAF0; }
-    .markdown-section table{ display:table; width:100%; }
-    .markdown-section tr:nth-child(2n){ background:#F6F3F2; }
-    .markdown-section th{ background:#F2EFEA; font-family:"IBM Plex Mono",monospace; font-size:.82em; text-transform:uppercase; letter-spacing:.05em; }
-    .markdown-section blockquote{ border-left:4px solid var(--theme-color); background:#FBEAF0; color:var(--ink2); }
-    .sidebar{ background:#fff; border-right:1px solid var(--line); }
-    .sidebar .app-name-link{ font-family:"Hanken Grotesk",sans-serif; font-weight:800; color:var(--ink); letter-spacing:-.02em; }
-    .sidebar-nav{ font-family:"IBM Plex Sans",sans-serif; }
-    .sidebar-nav li>a{ color:var(--ink2); }
-    .sidebar-nav li.active>a{ color:var(--theme-color); font-weight:600; border-right:2px solid var(--theme-color); }
-    .app-nav a:hover,.anchor:hover span{ color:var(--theme-color); }
-    .search input{ border:1px solid var(--line); }
+    :root{
+      --berry:#B52F5E; --berry-deep:#8f2149; --berry-wash:#FBEAF0; --berry-line:#EACBD6;
+      --peach:#F0A46F; --ink:#161119; --ink2:#3d3640; --muted:#7a7280;
+      --paper:#FBFAF7; --paper2:#F4F1EF; --card:#FFFFFF; --line:#E9E3DC; --line2:#DAD2C9;
+      --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+      --sans:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+      --display:"Hanken Grotesk","IBM Plex Sans",sans-serif;
+      --theme-color:#B52F5E;
+    }
+    html,body{ background:var(--paper); }
+    body,.markdown-section{ font-family:var(--sans); color:var(--ink2); -webkit-font-smoothing:antialiased; }
+
+    /* ---- sidebar ---- */
+    .sidebar{ background:var(--card); border-right:1px solid var(--line); padding-top:6px; }
+    .sidebar > h1{ margin:22px 0 10px; padding:0 22px; }
+    .sidebar > h1 .app-name-link{ display:flex; align-items:center; gap:10px; color:var(--ink); font-family:var(--display); font-weight:800; font-size:18px; letter-spacing:-.02em; }
+    .sidebar > h1 .app-name-link img{ width:30px; height:30px; border-radius:8px; }
+    .sidebar-nav{ font-family:var(--sans); padding:0 12px; }
+    .sidebar-nav li{ margin:1px 0; }
+    .sidebar-nav li > a{ color:var(--ink2); font-size:14px; padding:7px 10px; border-radius:8px; display:block; transition:background .12s,color .12s; }
+    .sidebar-nav li > a:hover{ background:var(--paper2); color:var(--ink); }
+    .sidebar-nav li.active > a{ color:var(--berry-deep); font-weight:600; background:var(--berry-wash); border-right:0; }
+    .sidebar .search{ margin:0 12px 8px; padding:12px 10px 10px; border-bottom:1px solid var(--line); }
+    .sidebar .search input{ font-family:var(--sans); border:1px solid var(--line2); border-radius:9px; background:var(--paper); padding:9px 12px; }
+    .sidebar .search input:focus{ border-color:var(--berry); outline:none; }
+    .sidebar .search .clear{ color:var(--muted); }
     .search .matching-post{ border-color:var(--line); }
-    .app-sub-sidebar li::before{ color:var(--theme-color); }
-    .sidebar-toggle span{ background-color:var(--theme-color); }
+    .search p a{ color:var(--berry); }
+    .app-nav a:hover, .anchor:hover span{ color:var(--berry); }
+    .sidebar-toggle{ background:transparent; }
+    .sidebar-toggle span{ background-color:var(--berry); }
+
+    /* ---- content ---- */
+    .content{ background:var(--paper); }
+    .markdown-section{ max-width:50rem; padding:34px 28px 80px; }
+    .markdown-section h1{ font-family:var(--display); font-weight:800; letter-spacing:-.025em; color:var(--ink); font-size:2.15rem; margin:0 0 .3em; }
+    .markdown-section h2{ font-family:var(--display); font-weight:800; letter-spacing:-.02em; color:var(--ink); font-size:1.4rem; margin-top:2em; padding-top:1.1em; border-top:1px solid var(--line); }
+    .markdown-section h3,.markdown-section h4{ font-family:var(--display); font-weight:700; letter-spacing:-.01em; color:var(--ink); }
+    .markdown-section p,.markdown-section li{ line-height:1.7; }
+    .markdown-section a{ color:var(--berry); font-weight:500; text-decoration:none; border-bottom:1px solid var(--berry-line); }
+    .markdown-section a:hover{ border-bottom-color:var(--berry); }
+    .markdown-section strong{ color:var(--ink); font-weight:600; }
+    .markdown-section em{ color:var(--ink2); }
+    .markdown-section ol > li{ margin:.5em 0; padding-left:.2em; }
+    .markdown-section ol > li::marker{ color:var(--berry); font-family:var(--mono); font-weight:600; }
+    .markdown-section ul li::marker{ color:var(--berry); }
+    .markdown-section code{ font-family:var(--mono); font-size:.85em; color:var(--berry-deep); background:var(--berry-wash); border-radius:5px; padding:1px 6px; }
+    .markdown-section blockquote{ border-left:3px solid var(--berry); background:var(--berry-wash); color:var(--ink2); border-radius:0 10px 10px 0; }
+    .markdown-section table{ display:table; width:100%; border:1px solid var(--line); border-radius:10px; overflow:hidden; border-collapse:separate; border-spacing:0; }
+    .markdown-section th{ background:var(--paper2); color:var(--ink2); font-family:var(--mono); font-size:.72rem; font-weight:600; text-transform:uppercase; letter-spacing:.06em; }
+    .markdown-section th,.markdown-section td{ border:0; border-bottom:1px solid var(--line); padding:10px 14px; vertical-align:top; }
+    .markdown-section tr:last-child td{ border-bottom:0; }
+    .markdown-section tbody tr:nth-child(2n) td{ background:var(--paper); }
+
+    /* ---- branded landing (used in README) ---- */
+    .rb-eyebrow{ font-family:var(--mono); font-size:12px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--berry); display:block; margin-bottom:12px; }
+    .rb-lede{ font-family:var(--display); font-weight:500; font-size:1.28rem; line-height:1.45; color:var(--ink); max-width:34ch; margin:.1em 0 0; }
+    @media(min-width:700px){ .rb-lede{ max-width:52ch; } }
+    .rb-sub{ font-size:1rem; color:var(--ink2); max-width:60ch; margin:14px 0 0; line-height:1.65; }
+    .rb-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 6px; }
+    .rb-chips span{ font-family:var(--mono); font-size:11.5px; font-weight:600; color:var(--berry-deep); background:var(--berry-wash); border:1px solid var(--berry-line); border-radius:999px; padding:5px 11px; }
+    .rb-h{ font-family:var(--mono); font-size:12px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:40px 0 14px; }
+    .rb-grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:14px; }
+    .rb-card{ display:flex; flex-direction:column; gap:8px; border:1px solid var(--line); border-radius:15px; background:var(--card); padding:18px 18px 16px; text-decoration:none !important; border-bottom:1px solid var(--line) !important; transition:transform .13s ease, box-shadow .13s ease, border-color .13s ease; }
+    .rb-card:hover{ transform:translateY(-3px); border-color:var(--berry-line); box-shadow:0 22px 40px -28px rgba(143,33,73,.35); }
+    .rb-card .rb-mk{ width:30px; height:30px; border-radius:9px; background:var(--berry-wash); color:var(--berry); font-family:var(--mono); font-weight:700; font-size:14px; display:grid; place-items:center; }
+    .rb-card .rb-t{ font-family:var(--display); font-weight:800; font-size:16px; letter-spacing:-.01em; color:var(--ink); }
+    .rb-card .rb-d{ font-size:13.5px; color:var(--muted); line-height:1.5; flex:1; }
+    .rb-card .rb-go{ font-family:var(--mono); font-size:12px; font-weight:600; color:var(--berry); margin-top:4px; }
+    .rb-contact{ margin-top:34px; border:1px solid var(--line); border-radius:14px; background:var(--card); padding:18px 20px; }
+    .rb-contact .rb-h{ margin:0 0 8px; }
+    .rb-note{ margin-top:26px; font-family:var(--mono); font-size:12px; color:var(--muted); border-top:1px solid var(--line); padding-top:16px; }
+    .rb-mono-note{ font-family:var(--mono); font-size:12px; color:var(--muted); }
+
+    .cover-main{ font-family:var(--display); }
   </style>
 </head>
 <body>
-  <div id="app">Loading…</div>
+  <div id="app">Loading the legal center…</div>
   <script>
+    var RLOGO = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 1200'%3E%3Crect width='1200' height='1200' rx='248' fill='%23B52F5E'/%3E%3Cpath d='M312 864V498C312 376.5 410.5 278 532 278H625V464H554C522.5 464 497 489.5 497 521V864C497 915.4 455.4 957 404 957C352.6 957 312 915.4 312 864Z' fill='%23fff'/%3E%3Cpath d='M497 464C497 361.3 580.3 278 683 278H772C823.4 278 865 319.6 865 371V401C865 452.4 823.4 494 772 494H705C590.1 494 497 587.1 497 702V464Z' fill='%23F0A46F'/%3E%3Ccircle cx='893' cy='293' r='72' fill='%23FBFAF7'/%3E%3C/svg%3E";
     window.$docsify = {
       name: 'Rubaru · Legal',
+      logo: RLOGO,
       nameLink: '#/',
       repo: 'https://github.com/RUBARU-TECH/rubaru-legal',
       loadSidebar: true,
@@ -47,11 +103,7 @@
       subMaxLevel: 2,
       auto2top: true,
       relativePath: true,
-      search: {
-        placeholder: 'Search the policies…',
-        noData: 'No results.',
-        depth: 3
-      }
+      search: { placeholder: 'Search the policies…', noData: 'No results.', depth: 3 }
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
