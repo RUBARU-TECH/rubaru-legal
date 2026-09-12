@@ -23,7 +23,7 @@
 
 <div class="rb-contact">
 <div class="rb-h" style="margin:0 0 6px">Contact</div>
-<p class="rb-mono-note">support@rubaru.tech · RUBARU LLC · [registered address]</p>
+<p class="rb-mono-note">support@rubaru.tech · RUBARU LLC</p>
 </div>
 
 <p class="rb-note">Last updated September 12, 2026 · Operated by RUBARU LLC. Rubaru does not process payments or hold funds; money is transferred directly between buyer and merchant.</p>

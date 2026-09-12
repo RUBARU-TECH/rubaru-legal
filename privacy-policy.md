@@ -4,7 +4,7 @@
 
 _Last updated: September 12, 2026 · RUBARU LLC_
 
-1. **Who we are and what this policy covers.** This policy explains how RUBARU LLC ("Rubaru", "we"), with registered address at [registered address], processes personal data in connection with the **Rubaru Bank Transfer Discount** app for Shopify (the "App"). With respect to a store's buyers' data, the **merchant** that installs the App is the **controller** and Rubaru acts as **processor**, processing that data on behalf of and under the instructions of the merchant. Privacy contact: support@rubaru.tech. [EU/UK representative under Art. 27, if applicable — Diego to confirm.]
+1. **Who we are and what this policy covers.** This policy explains how RUBARU LLC ("Rubaru", "we") processes personal data in connection with the **Rubaru Bank Transfer Discount** app for Shopify (the "App"). With respect to a store's buyers' data, the **merchant** that installs the App is the **controller** and Rubaru acts as **processor**, processing that data on behalf of and under the instructions of the merchant. Privacy contact: support@rubaru.tech. [EU/UK representative under Art. 27, if applicable — Diego to confirm.]
 2. **Dual role.** With respect to the store's buyers' data, Rubaru acts as **processor** on behalf of the merchant. With respect to the merchant's account data and that of its staff (the name and email of the staff who install or operate the App, and what is needed to bill and provide support), Rubaru acts as **controller**, for the purposes of providing, billing, and securing the App. Those rights are exercised directly with Rubaru.
 3. **What data we process.** The App is designed to minimize data. We process:
    - _From the merchant:_ the staff's name and email and the access tokens needed to operate with Shopify; the bank details the merchant enters to show to its buyers (alias, CBU, account holder); and the App's configuration.
@@ -26,4 +26,4 @@ _Last updated: September 12, 2026 · RUBARU LLC_
 16. **Automated decisions.** The App does not make automated decisions with significant legal effects: a receipt is always approved by the merchant, not by the App.
 17. **Important clarification.** Rubaru **does not process payments or hold funds**. The money is transferred directly between buyer and merchant, outside the App. The receipt is proof that the merchant reviews; the App does not confirm that the payment has settled.
 18. **Changes to this policy.** We may update this policy; we will publish the current version with its date and, for material changes, we will communicate them by reasonable means.
-19. **Contact.** RUBARU LLC — [registered address] — support@rubaru.tech — [DPO, if appointed].
+19. **Contact.** RUBARU LLC — support@rubaru.tech — [DPO, if appointed].
