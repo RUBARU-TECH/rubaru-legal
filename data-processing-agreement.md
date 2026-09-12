@@ -2,7 +2,7 @@
 
 # Data Processing Agreement (DPA)
 
-_Between [Legal entity name] ("Rubaru", processor) and the Merchant ("controller") · Annex to the Service Agreement_
+_Between RUBARU LLC ("Rubaru", processor) and the Merchant ("controller") · Annex to the Service Agreement_
 
 1. **Roles.** The Merchant is the **controller** of its buyers' personal data. Rubaru is the **processor** and processes it solely on behalf of the Merchant. Shopify acts as the Merchant's own processor under its own agreement, and is **not** a Rubaru subprocessor. This DPA prevails over any conflicting terms regarding the processing of personal data.
 2. **Subject matter and scope.** The subject matter, duration, nature, and purpose of the processing, the types of data, and the categories of data subjects are set out in **Annex A**. Rubaru will process the data only to provide the App.

@@ -2,7 +2,7 @@
 
 # Security & Subprocessors
 
-_Last updated: [date]_
+_Last updated: September 12, 2026_
 
 ## Technical and organizational measures
 
@@ -31,7 +31,7 @@ We keep the data while the App is installed. Uninstalling deletes the session, t
 
 ## Incident management
 
-In the event of a security incident affecting personal data, we will contain and assess it, notify the merchant (the controller) **without undue delay** so that it can meet its legal deadlines, and notify Shopify within **24 hours** in accordance with the Partner Program Agreement [verify the current deadline and citation]. Security contact: [seguridad@rubaru.tech].
+In the event of a security incident affecting personal data, we will contain and assess it, notify the merchant (the controller) **without undue delay** so that it can meet its legal deadlines, and notify Shopify within **24 hours** in accordance with the Partner Program Agreement [verify the current deadline and citation]. Security contact: support@rubaru.tech.
 
 ## Subprocessor changes
 

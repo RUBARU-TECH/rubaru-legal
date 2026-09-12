@@ -2,7 +2,7 @@
 
 # Refunds & Cancellation Policy
 
-_Last updated: [date]_
+_Last updated: September 12, 2026_
 
 1. **Scope.** This policy concerns the App subscription that Rubaru charges the merchant. Refunds to the store's buyers are the merchant's responsibility and are processed through Shopify.
 2. **Plans and trial.** The App is offered in the Basic, Grow, and Pro plans, with a 7-day free trial. When the trial ends, the subscription becomes paid and **auto-renews** monthly until you cancel it.
@@ -13,4 +13,4 @@ _Last updated: [date]_
 7. **Refunds.** [Define: e.g. fees are non-refundable except as required by law / the current month is prorated.] Where a refund applies, it is processed through Shopify to the original payment method.
 8. **Right of withdrawal (Argentina).** If you are a consumer covered by Law 24.240, you may revoke the contract within the legal period; upon notifying us, we will confirm the cancellation within 24 hours with the corresponding code. [Diego: confirm B2B applicability and the mechanism, given that billing is through Shopify.]
 9. **Renewals.** We inform you of the renewal terms before the first charge and, where the law requires it, we will send pre-renewal reminders.
-10. **Contact.** [soporte@rubaru.tech].
+10. **Contact.** support@rubaru.tech.

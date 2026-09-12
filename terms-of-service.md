@@ -2,9 +2,9 @@
 
 # Terms of Service
 
-_Last updated: [date] · [Legal entity name]_
+_Last updated: September 12, 2026 · RUBARU LLC_
 
-1. **Acceptance and definitions.** By installing or using the App, the merchant ("you") accepts these Terms with [Legal entity name] ("Rubaru"). The "App" is Rubaru Bank Transfer Discount for Shopify.
+1. **Acceptance and definitions.** By installing or using the App, the merchant ("you") accepts these Terms with RUBARU LLC ("Rubaru"). The "App" is Rubaru Bank Transfer Discount for Shopify.
 2. **License.** Rubaru grants you a limited, non-exclusive, revocable, and non-transferable right to use the App in your Shopify store as long as you comply with these Terms.
 3. **Acceptable use.** You may not resell the App, reverse-engineer it, overload or breach its security, or use it for unlawful purposes.
 4. **Your obligations.** You are responsible for: entering correct bank details for an account you are authorized to use; treating your buyers in accordance with the law; and maintaining your own privacy policy and legal bases as controller (see the DPA, document C).
