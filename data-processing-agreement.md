@@ -1,42 +1,64 @@
-<!-- DRAFT for Rubaru Bank Transfer Discount. Replace every [bracketed field] and have counsel review before publishing. Delete this comment when final. -->
+# Data Processing Addendum
 
-# Data Processing Agreement (DPA)
+*Rubaru Bank Transfer Discount*
 
-_Between RUBARU LLC ("Rubaru", processor) and the Merchant ("controller") · Annex to the Service Agreement_
+Effective date: **September 16, 2026**
 
-1. **Roles.** The Merchant is the **controller** of its buyers' personal data. Rubaru is the **processor** and processes it solely on behalf of the Merchant. Shopify acts as the Merchant's own processor under its own agreement, and is **not** a Rubaru subprocessor. This DPA prevails over any conflicting terms regarding the processing of personal data.
-2. **Subject matter and scope.** The subject matter, duration, nature, and purpose of the processing, the types of data, and the categories of data subjects are set out in **Annex A**. Rubaru will process the data only to provide the App.
-3. **Documented instructions.** Rubaru processes personal data only according to the Merchant's documented instructions (including international transfers), unless legally required otherwise, in which case it will inform the Merchant unless legally prohibited. Rubaru will inform the Merchant, without delay, if it considers that an instruction infringes the GDPR or another applicable data-protection rule.
-4. **Confidentiality.** Rubaru ensures that the persons authorized to process the data are bound by a duty of confidentiality.
-5. **Security.** Rubaru implements the appropriate technical and organizational measures (Art. 32 GDPR), described in **Annex C** and in the Security document (G).
-6. **Subprocessors.** The Merchant grants general authorization for the use of the subprocessors listed in **Annex B**. Rubaru will give advance notice of any change and the Merchant may object on reasonable data-protection grounds. Rubaru imposes on each subprocessor the same obligations as this DPA and is liable for its performance.
-7. **Assistance with data subjects' rights.** Taking into account the nature of the processing, Rubaru assists the Merchant with appropriate technical and organizational measures to respond to requests for access, rectification, erasure, objection, restriction, and portability; and it integrates Shopify's compliance webhooks for that purpose.
-8. **Assistance with security, breaches, and assessments.** Rubaru assists the Merchant with its obligations under Arts. 32-36 (security, breach notification, impact assessments, and prior consultation).
-9. **Incident notification.** Rubaru will notify the Merchant **without undue delay** after becoming aware of a security breach affecting personal data, with the information reasonably available so that the Merchant can meet its legal deadlines [e.g. 72 h].
-10. **Deletion or return.** At the end of the service, and in any case within **30 days** of uninstall or the request, Rubaru deletes or, if the Merchant so requests and it is technically feasible, returns (for example, via export from Shopify) all personal data, and deletes the copies, unless legally required to retain them. Deletion is carried out through the uninstall flows and `shop/redact`/`customers/redact`.
-11. **Audit.** Rubaru makes available to the Merchant the information necessary to demonstrate compliance with this DPA and allows reasonable audits, which may be satisfied through third-party reports or certifications when available.
-12. **Records.** Rubaru maintains the records of the processing activities carried out on behalf of the Merchant (Art. 30(2) GDPR).
-13. **International transfers.** Where the processing involves transferring data subject to the GDPR to a country without an adequate level of protection, the Standard Contractual Clauses (Decision 2021/914) apply, in the corresponding module, incorporated by reference in **Annex D**, together with the UK addendum where applicable. [Diego: define the module and risk assessment for the leg to Render US.]
-14. **"Service provider" terms (CCPA/CPRA).** With respect to the personal information of California residents, Rubaru: does not sell or share it; does not retain, use, or disclose it outside the service relationship or for any other purpose; does not combine it with data from other sources except as permitted; certifies that it understands and will comply with these restrictions; and cooperates with consumer rights requests.
-15. **No AI training and no reselling.** Rubaru does not use the Merchant's personal data to train artificial intelligence models, nor does it resell it.
-16. **Liability and term.** This DPA is in force while Rubaru processes data on behalf of the Merchant and forms part of the Service Agreement, whose liability clauses apply.
+This Data Processing Addendum ("DPA") forms part of the Terms of Service between RUBARU LLC ("Rubaru") and the merchant using Rubaru Bank Transfer Discount (the "Merchant"). It applies when Rubaru processes personal data on the Merchant's behalf.
 
-## Annex A — Processing details
+## 1 Scope and Roles
 
-**Subject matter:** provision of the App. **Duration:** while the App is installed. **Nature and purpose:** apply the bank-transfer discount, display the Merchant's bank details, receive and manage the receipt, attribute orders, and mark the approved order as paid. **Types of data:** order data (id/name, amount, currency, payment methods, code) and the receipt file (which may contain the buyer's personal/financial data). **Categories of data subjects:** the Merchant's buyers.
+The Merchant is the controller or business for personal data processed through the App. Rubaru is the processor, service provider, or contractor, as applicable. Each party will comply with privacy laws applicable to its own role. Terms such as personal data, processing, controller, processor, business, consumer, and service provider have the meanings given by applicable privacy law.
 
-## Annex B — Subprocessors
+This DPA applies for the period that Rubaru processes personal data for the Merchant. The processing details appear in Schedule 1.
 
-| Subprocessor | Purpose | Location | Safeguard |
-|---|---|---|---|
-| Render | Hosting for the service and database | United States | SCCs (pending incorporation — see Annex D) |
+## 2 Merchant Instructions and Responsibilities
 
-Shopify is not listed as a Rubaru subprocessor: it is the Merchant's own processor under its agreement with Shopify.
+Rubaru will process personal data only to provide, secure, support, and maintain the App; comply with the Merchant's documented configuration and lawful requests; and meet legal obligations. The Terms, this DPA, the Merchant's use of the App, and lawful support instructions are the Merchant's documented instructions.
 
-## Annex C — Security measures
+The Merchant is responsible for the lawfulness, accuracy, and necessity of the data and instructions it provides, including required notices, permissions, and consent. The Merchant must not use the App to collect information that is unnecessary for the bank-transfer workflow. Rubaru will inform the Merchant if an instruction appears to violate applicable privacy law, unless law prohibits notice.
 
-See document G (Security): encryption in transit, authentication of webhooks and tokens, minimization, file validation, rate limits, and separation of surfaces and least privilege.
+## 3 Confidentiality and Security
 
-## Annex D — Standard Contractual Clauses
+Rubaru will limit access to authorized persons who need personal data for their duties and are bound by confidentiality obligations. Rubaru will maintain reasonable administrative, technical, and organizational safeguards appropriate to risk, including the measures summarized in Schedule 2.
 
-[Attach the applicable module of Decision 2021/914 and, where relevant, the UK addendum.]
+The Merchant remains responsible for its Shopify account, devices, personnel, bank access, buyer notices, receipt-review procedures, and lawful retention obligations.
+
+## 4 Subprocessors and Transfers
+
+The Merchant generally authorizes Rubaru to use subprocessors required to provide the App. Current subprocessors are listed in Schedule 2. Rubaru will require each subprocessor to protect personal data consistently with applicable obligations and remains responsible for the subprocessor's performance to the extent required by law.
+
+Rubaru may replace or add a subprocessor when reasonably necessary to operate the App. Rubaru will make current information available to the Merchant and provide notice of a material change where required. If the Merchant has a reasonable data-protection objection, the parties will work in good faith on a practical solution. If no solution is available, either party may discontinue the affected processing.
+
+Personal data may be processed in the United States. If applicable law requires a transfer mechanism, the parties will use the then-valid standard contractual clauses, addendum, adequacy decision, or other lawful safeguard appropriate to the transfer.
+
+## 5 Requests Incidents and Compliance Assistance
+
+Taking into account the nature of the processing, Rubaru will reasonably assist the Merchant with verified privacy requests, required impact assessments, regulator inquiries, and security obligations. Rubaru may ask the Merchant for information needed to verify or fulfill a request.
+
+Rubaru will notify the Merchant without undue delay after confirming a security incident involving personal data processed for the Merchant, unless law prohibits notice. The notice will include available information reasonably needed for the Merchant's response. Notice is not an admission of fault. The Merchant is responsible for notices to buyers and authorities unless law assigns that duty to Rubaru.
+
+## 6 Return Deletion and Review
+
+Rubaru will respond to valid Shopify compliance webhooks within Shopify's required period. On termination or a valid deletion instruction, Rubaru will delete or anonymize personal data that it controls unless law requires retention. Limited copies may remain temporarily in routine backups until they expire. Receipt files stored in Shopify Files remain subject to the Merchant's control and Shopify's services.
+
+On reasonable written request, Rubaru will provide information needed to demonstrate compliance with this DPA. If that information is insufficient and applicable law gives the Merchant an audit right, the parties will first use an independent report or questionnaire and will agree reasonable scope, timing, confidentiality, and cost protections for any further review. Reviews may not compromise another customer, security, or privileged information.
+
+## 7 Contract Terms
+
+The liability provisions in the Terms apply to this DPA to the maximum extent permitted by law. If this DPA conflicts with the Terms on processing personal data for the Merchant, this DPA controls. Florida law and the dispute provisions in the Terms apply except where mandatory privacy law requires otherwise. Questions may be sent to **support@rubaru.tech**.
+
+## Schedule 1 Processing Details
+
+| **Item** | **Description** |
+|---|---|
+| Subject and purpose | Operating the merchant's bank-transfer discount, receipt-upload, review, order-attribution, support, and security workflow. |
+| Duration | For the term of the Merchant's use of the App and the limited period needed for deletion, legal compliance, security, or dispute resolution. |
+| Data subjects | Merchant personnel and buyers who use the merchant's bank-transfer workflow. |
+| Data | Store and account identifiers; App settings; order identifier or name, amount, currency, payment method, discount and status; receipt file contents and reference; review status; support communications; and technical security or diagnostic records. |
+| Sensitive data | Not intentionally requested. A receipt uploaded by a buyer may incidentally contain bank, tax, identity, or other sensitive information. |
+| Operations | Collection, access, organization, storage, retrieval, display, transmission within Shopify, support, protection, deletion, and anonymization. |
+
+## Schedule 2 Security Measures and Subprocessors
+
+Measures include data minimization and logical separation; encrypted transmission and platform storage safeguards; authentication, least-privilege access, and confidentiality duties; webhook and uploaded-file validation; logging, monitoring, dependency management, backups, incident response, deletion, access review, personnel training, and change review. Shopify provides the commerce platform, APIs, authentication, billing, and Shopify Files in locations used under its terms. Render provides application and database hosting in the United States.

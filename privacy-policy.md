@@ -1,29 +1,81 @@
-<!-- DRAFT for Rubaru Bank Transfer Discount. Replace every [bracketed field] and have counsel review before publishing. Delete this comment when final. -->
-
 # Privacy Policy
 
-_Last updated: September 12, 2026 · RUBARU LLC_
+*Rubaru Bank Transfer Discount*
 
-1. **Who we are and what this policy covers.** This policy explains how RUBARU LLC ("Rubaru", "we") processes personal data in connection with the **Rubaru Bank Transfer Discount** app for Shopify (the "App"). With respect to a store's buyers' data, the **merchant** that installs the App is the **controller** and Rubaru acts as **processor**, processing that data on behalf of and under the instructions of the merchant. Privacy contact: support@rubaru.tech. [EU/UK representative under Art. 27, if applicable — Diego to confirm.]
-2. **Dual role.** With respect to the store's buyers' data, Rubaru acts as **processor** on behalf of the merchant. With respect to the merchant's account data and that of its staff (the name and email of the staff who install or operate the App, and what is needed to bill and provide support), Rubaru acts as **controller**, for the purposes of providing, billing, and securing the App. Those rights are exercised directly with Rubaru.
-3. **What data we process.** The App is designed to minimize data. We process:
-   - _From the merchant:_ the staff's name and email and the access tokens needed to operate with Shopify; the bank details the merchant enters to show to its buyers (alias, CBU, account holder); and the App's configuration.
-   - _From orders:_ the order identifier and name, amount, currency, payment methods, and applied discount code. Shopify classifies this data as **Protected Customer Data, Level 1**. The App does **not** collect or store the buyer's name, email, phone, or address.
-   - _The transfer receipt:_ the file (image or PDF) that the buyer uploads as proof. It is stored in Shopify Files (the merchant's storage). **That file may contain the buyer's personal and financial data** (for example, name, tax identification, account number, or amount), depending on what the buyer includes.
-   - _Technical events:_ a "purchase completed" event from the App's pixel, with the order identifier, the amount, the currency, and the applied codes, with no buyer-identifying data.
-4. **Where we obtain the data.** From the merchant (when configuring the App), from Shopify (installation, Admin API, and webhooks), from the buyer (the receipt), and from the App's pixel at checkout.
-5. **What we use the data for and the legal basis.** We use the data to: apply the bank-transfer discount and adjust the payment methods at checkout; display the merchant's bank details; receive and manage the receipt; attribute transfer orders for the merchant's savings dashboard; mark an order approved by the merchant as paid; bill the subscription; provide support; and ensure security. The legal basis is the **performance of the contract** with the merchant, our **legitimate interest** in operating and securing the App and, where applicable, **consent** (for example, for the pixel where the law requires it). [Diego: confirm/refine the legal bases by purpose and jurisdiction.]
-6. **Financial data in the receipt.** The receipt file may contain the buyer's financial data (for example, account number or CUIT). We do not use it to infer characteristics about the person or for any purpose other than to let the merchant verify the payment. California residents may request to limit the use of sensitive personal information; in practice we only keep the file available to the merchant and delete it with the `redact` webhooks.
-7. **Nature of the data.** Uploading the receipt is voluntary but necessary to evidence the bank-transfer payment; without it, the merchant may be unable to approve or fulfill the order. The order data is necessary to apply the discount and the attribution.
-8. **Notice at the time of collection.** At the point where the buyer uploads the receipt, we provide a summary of what data is collected, for what purpose, that it is **not** sold or shared, the retention period, and a link to this Policy.
-9. **Who we share the data with.** Our subprocessor is **Render** (hosting for the service and the database, in the US). In addition, the App runs on **Shopify**, the platform where your store already lives (receipt storage, API, billing, and webhooks); Shopify acts as the merchant's own processor. **We do not sell or rent personal data** and **we do not use it to train artificial intelligence models.** The list of subprocessors is at https://rubaru-tech.github.io/rubaru-legal/#/security-and-subprocessors.
-10. **International transfers.** Rubaru is established in [country / jurisdiction], and our hosting providers operate in the **US**, so the data may be processed outside your country. When we transfer personal data subject to the GDPR outside the European Economic Area, we do so with appropriate safeguards, in particular [EU standard contractual clauses / applicable mechanism].
-11. **How long we keep the data.** We keep the data while the App is installed and for as long as it is necessary for the purposes described. On uninstall, we delete the session, the internal events, and the configuration; and upon Shopify's deletion request (`shop/redact`, approximately 48 hours after uninstall) we delete **all** of the store's data, including the receipt files. Upon a buyer's deletion request (`customers/redact`) we delete the receipt file and the metadata for those orders. Retention period while the App is in use (logs and resolved receipts): [define — e.g. 12 months].
-12. **How we protect the data.** We apply encryption in transit (HTTPS), authenticity verification of webhooks and session tokens, separation of the admin and buyer surfaces, strict validation of uploaded files, rate limits, and **minimization** (we do not store buyer PII in our database). Encryption at rest relies on the infrastructure of Render and Shopify. [Diego: confirm the encryption-at-rest detail before publishing.]
-13. **Your rights.** Depending on your jurisdiction, you have the right to access, rectify, erase, object, restrict processing, to portability, and to withdraw consent where processing is based on it. As a buyer, Rubaru acts on behalf of the merchant, so the primary route is through the merchant where you made your purchase; you can also write to us at support@rubaru.tech and we will channel the request. If you are a merchant user (staff), you exercise your rights directly with us at support@rubaru.tech. We may ask you for reasonable information to verify your identity before responding, and we will respond within the applicable legal time limits (e.g. 30 days under the GDPR; 45 days, extendable, under the CCPA). You may lodge a complaint with the competent supervisory authority [authority — e.g. AAIP in Argentina]. Local laws (e.g. LGPD Art. 18) may grant additional rights.
-14. **California residents (CCPA/CPRA).** We do not sell or share personal data as defined by the CCPA. California residents may exercise the rights to know, delete, and correct, and to non-discrimination, through the routes in point 13 (Your rights).
-15. **Minors.** The App is not directed at persons under [age] and we do not knowingly collect their data.
-16. **Automated decisions.** The App does not make automated decisions with significant legal effects: a receipt is always approved by the merchant, not by the App.
-17. **Important clarification.** Rubaru **does not process payments or hold funds**. The money is transferred directly between buyer and merchant, outside the App. The receipt is proof that the merchant reviews; the App does not confirm that the payment has settled.
-18. **Changes to this policy.** We may update this policy; we will publish the current version with its date and, for material changes, we will communicate them by reasonable means.
-19. **Contact.** RUBARU LLC — support@rubaru.tech — [DPO, if appointed].
+Effective date: **September 16, 2026**
+
+This Privacy Policy explains how RUBARU LLC processes personal information through Rubaru Bank Transfer Discount. It is written for Shopify merchants, their authorized users, and buyers who submit a bank-transfer receipt through a merchant's store.
+
+## 1 Who We Are and Our Role
+
+RUBARU LLC ("Rubaru," "we," "us," or "our") is a limited liability company organized in Florida, United States. Contact us at **support@rubaru.tech**.
+
+Rubaru acts as a controller for merchant account, support, security, and business-administration information. For buyer and order information processed to provide the App, the merchant is the controller or business and Rubaru acts as its processor, service provider, or contractor, as applicable. Buyers should normally send privacy requests to the merchant from which they purchased.
+
+## 2 How the App Works
+
+The App lets a merchant configure a discount for a manual bank-transfer payment flow, display bank details supplied by the merchant, receive a receipt uploaded by a buyer, and approve or reject that receipt.
+
+Rubaru does not receive, hold, transmit, convert, or control funds. A receipt and the merchant's approval do not prove that funds have settled. Payment, fulfillment, cancellation, and refund decisions remain between the merchant and the buyer.
+
+## 3 Information We Process
+
+**Merchant and store information.**
+
+We process the store identifier and domain, installation and subscription status, authentication credentials, App settings, discount rules, bank details the merchant chooses to display, and information supplied for support. Shopify may also provide the name or email of an authorized merchant user. Rubaru does not receive the merchant's payment-card number.
+
+**Order and workflow information.**
+
+We process the order identifier or order name, amount, currency, payment method, discount information, status, receipt reference, and the merchant's approval or rejection. The App is designed to use Shopify Protected Customer Data Level 1 and not to request or store buyer names, postal addresses, email addresses, or phone numbers through Shopify's APIs.
+
+**Receipts.**
+
+A buyer may upload an image or PDF that can contain a name, tax identifier, bank details, transaction information, or other information included by the buyer or the buyer's bank. The file is stored through Shopify Files in the merchant's Shopify environment. Rubaru stores the reference and workflow information needed to associate the receipt with an order and make it available to the merchant.
+
+**Technical information.**
+
+Shopify, the App, and its hosting infrastructure generate authentication, security, diagnostic, and usage records. These records may include device, browser, network, event, and error information. A functional Shopify web pixel may process an order identifier, amount, currency, and applied codes to identify the bank-transfer workflow. It is not used for behavioral advertising.
+
+## 4 How We Use Information
+
+- Install, authenticate, operate, maintain, and secure the App.
+
+- Apply the merchant's discount settings and show the merchant's bank details.
+
+- Associate a receipt with an order and support the merchant's review decision.
+
+- Provide the dashboard, subscription administration, support, and service communications.
+
+- Prevent abuse, investigate errors, comply with law, and protect legal rights.
+
+Rubaru does not sell personal information, use it for cross-context behavioral advertising, or use merchant, buyer, order, or receipt data to train artificial-intelligence models. We do not make automated decisions that produce legal or similarly significant effects for buyers.
+
+## 5 Sharing and International Processing
+
+We disclose information only as needed to operate the App, comply with law, or complete a corporate transaction. Current service providers include Shopify, which provides the commerce platform and Shopify Files, and Render, which provides application and database hosting in the United States. Providers may process information only for authorized services and under applicable contractual duties.
+
+Rubaru is established in the United States, and information may be processed there or in another country where an authorized provider operates. When applicable law requires a transfer safeguard, Rubaru and the merchant will use a legally recognized mechanism.
+
+## 6 Retention and Deletion
+
+Rubaru keeps information only while it is needed to provide the App, protect the service, comply with law, or resolve a dispute. When Shopify sends a valid data request, customer-redaction request, or shop-redaction request, Rubaru responds within Shopify's required period unless retention is legally required. App-managed data is deleted or anonymized when no longer required. Limited copies may remain temporarily in routine backups until they expire through the normal backup cycle.
+
+Receipt files stored in Shopify Files remain subject to the merchant's control and Shopify's services. The merchant is responsible for retention required for its sales, accounting, tax, banking, or consumer obligations.
+
+## 7 Security
+
+Rubaru uses reasonable administrative, technical, and organizational safeguards, including data minimization, encrypted transmission, authentication, webhook verification, access controls, logging, and controls for uploaded files. No internet service is completely secure, and Rubaru cannot guarantee absolute security.
+
+## 8 Privacy Rights
+
+Depending on applicable law, individuals may have rights to access, correct, delete, restrict, object to, or obtain a copy of personal information. Buyers should contact the merchant that collected the information. Merchants and authorized users may contact Rubaru at the email above. We may verify identity and authority before acting on a request and will assist merchants with valid buyer requests.
+
+## 9 Children
+
+The App is a business service for Shopify merchants and is not directed to children. Rubaru does not knowingly seek to collect children's personal information through the App.
+
+## 10 Changes and Contact
+
+We may update this Policy to reflect changes in law, the App, or our practices. The revised version will show a new effective date, and we will give reasonable notice of material changes where required.
+
+Questions and requests may be sent to **support@rubaru.tech**.
